@@ -18,15 +18,14 @@ ExpenseManager.java:
 This file contains the ExpenseManager class, which acts as a central component for managing and organizing expenses. It may include methods to add, remove, and retrieve expenses, as well as functionalities like filtering or sorting expenses based on specific criteria.
 
 MyException.java: 
-This file defines a custom exception class, MyException, which can be used to handle exceptional scenarios or errors specific to the expense management system. It may include methods for custom error handling and throwing exceptions.
-
+This file defines a custom exception class, MyException, which is used to handle all the exceptions or errors specific to the expense management system.
 User.java: 
-This file defines the User class, which represents an individual user of the expense management system. It may include attributes like username, password, and contact information. It also includes getter and setter methods for accessing and modifying user details.
+This file defines the User class, which represents an individual user of the expense management system. It includes username and password of each user. It is responsible for updating the login file and creating a new expense file for new user.
 
 UserClass.java: 
-This file contains the UserClass class, which provides functionalities for managing user-related operations, such as user registration, login, and authentication. It may include methods for validating user credentials, creating new user accounts, and managing user sessions.
+This file contains the UserClass class, which provides functionalities for managing user-related operations, such as creating a new id and login. It contains two methods - one is to create a new id wherein you have to enter new username and password so as to create a new expense file, the other is to login to an existing account wherein the user has to enter the username and password already set by him.
 
 UserTest.java: 
-This file contains the unit tests for the UserClass. It typically includes various test cases to ensure that the user-related functionalities are working correctly and producing the expected results.
+This file contains the unit tests for the UserClass. It is the testing class where the main purpose is to check that the UserClass is working correctly and producing the expected results or not.
 
-Overall, these Java files work together to create a Daily Expense Manager application, allowing users to manage their expenses, perform calculations, and perform user-related operations like registration and authentication.
+These Java files work together to create a Daily Expense Manager System in Java, allowing users to manage their expenses by creating an expense list under their name.
